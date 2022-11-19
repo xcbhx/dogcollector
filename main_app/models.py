@@ -26,12 +26,16 @@ class Dog(models.Model):
   description = models.TextField(max_length=250)
   age = models.IntegerField()
 
+  toys = models.ManyToManyField(Toy)
 
   def __str__(self):
     return f'{self.name} ({self.id})'
 
   def get_absolute_url(self):
     return reverse('detail', kwargs={'dog_id': self.id})
+
+  def fed_for_today(self):
+    return self.feeding_set.filter(date=date.today()).count() >= len(MEALS)
 
 class Feeding(models.Model):
   date = models.DateField('Feeding Date')
