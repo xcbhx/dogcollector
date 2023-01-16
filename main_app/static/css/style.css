@@ -33,7 +33,15 @@ a {
   letter-spacing: 1px;
 }
 
-.navbarHome {
-  float: left;
-  list-style-type: none;
+/* Add Toy */
+.toyContainer {
+  border-style: dotted;
+}
+
+.toyName {
+  color: aqua;
+}
+
+.toyAction {
+  color: tomato;
 }
