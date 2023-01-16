@@ -1,19 +1,39 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
-  main {
-    flex: 1 0 auto;
-  }
-  
-  footer.page-footer {
-    padding-top: 0;
-    text-align: right;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  /* Home Page */
+main {
+  flex: 1 0 auto;
+}
+
+footer.page-footer {
+  padding-top: 0;
+  text-align: right;
+}
+
+/* Home Page */
 #home {
   text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(38, 38, 38);
+  letter-spacing: 1px;
+}
+
+.navbarHome {
+  float: left;
+  list-style-type: none;
 }
