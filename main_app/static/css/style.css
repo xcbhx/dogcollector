@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #f8dfce;;
 }
 
 main {
@@ -13,35 +16,6 @@ footer.page-footer {
   text-align: right;
 }
 
-/* Home Page */
-#home {
-  text-align: center;
-}
-
-/* Navbar */
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(38, 38, 38);
-  letter-spacing: 1px;
-}
-
-/* Add Toy */
-.toyContainer {
-  border-style: dotted;
-}
-
-.toyName {
-  color: aqua;
-}
-
-.toyAction {
-  color: tomato;
+li, h1, h4, p, .card-title, .btn, form, .name {
+  font-family: 'Poppins', sans-serif;
 }
