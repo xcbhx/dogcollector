@@ -12,9 +12,7 @@ from .models import Dog, Toy, Photo
 from .forms import FeedingForm  
 
 
-# Create your views here.
 def home(request):
-    # Include an .html file extension  
     return render(request, 'home.html')
 
 @login_required
