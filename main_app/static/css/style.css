@@ -4,7 +4,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #f8dfce;;
+  background-color: #c2c6d0;
 }
 
 main {
@@ -14,8 +14,48 @@ main {
 footer.page-footer {
   padding-top: 0;
   text-align: right;
+  background-color: #0b2636;
 }
 
 li, h1, h4, p, .card-title, .btn, form, .name {
   font-family: 'Poppins', sans-serif;
+}
+
+.card, .card-panel, .btn {
+  border-radius: 30px;
+}
+.nav-wrapper, .btn {
+  background-color: #0b2636;
+}
+
+.nav-wrapper a {
+  color: #FAF0D7;
+}
+
+h1, h4, h5, p, .card-content {
+  text-align: center;
+}
+
+h1 {
+  margin: 15vmin;
+}
+
+p {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.card-title, .desc, label {
+  color: #0b2636;
+}
+label {
+  font-size: 20px;
+}
+
+.btn {
+  margin: 8px;
+}
+
+input {
+  text-decoration-color: #0b2636;
 }
